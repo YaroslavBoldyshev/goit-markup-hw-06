@@ -145,6 +145,7 @@ body{
 .button-order:hover,
 .button-order:focus{
     background-color: #188CE8;
+    cursor: pointer;
 }
 /* ------------------------pictures with caption------------------------- */
 .examples-item-caption {
@@ -658,6 +659,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.modal-close-button:hover{
+    cursor: pointer;
 }
 .modal-close-button:hover .modal-close-icon,
 .modal-close-button:focus .modal-close-icon{
